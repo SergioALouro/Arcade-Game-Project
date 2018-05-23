@@ -1,6 +1,16 @@
-frontend-nanodegree-arcade-game
-===============================
+# Arcade Game Project
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+## Table of Contents
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+* [Instructions](#instructions)
+* [Contributing](#contributing)
+
+## Instructions
+
+ In this game you have to find all 8 pairs of cards. You will start with a three stars rating. If you finish the game under 26 moves you'll be awarded whith a 3 stars, if you finish the game between 27 and 32 moves you'll be awarded with 2 stars and if you finish the game with more than 32 moves you'll have a 1 star. In the end of the game a pop up will appear, in this pop up will be displayed your score and the time that you've taken to complete the game. If you click in the X you will close the pop up and can see all the cards . If you click in the Shuffle button the game will restart.
+
+## Contributing This repository is based in a repository from Udacity. You are free to use this code and change it at your discretion. [CONTRIBUTING.md](CONTRIBUTING.md).
+
+In this you have to cross the grass and stone tiles to reach the water. You must avoid the bugs, if you get hit by the bugs you'll die and the player will teleport to the star point, the same happens if you reach the water. The bugs cross the screen in the stone tiles at random speed.
+
+## Contributing This repository is based in a repository from Udacity. You are free to use this code and change it at your discretion. [CONTRIBUTING.md](CONTRIBUTING.md).
