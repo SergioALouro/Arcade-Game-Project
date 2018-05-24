@@ -42,7 +42,7 @@ class Enemy {
 // This class requires an update(), render() and
 // a handleInput() method.
 
-
+//
 class Hero {
     constructor(heroX, heroY) {
         this.heroX = heroX;
@@ -63,6 +63,7 @@ class Hero {
         else if(this.heroY > 404) {
             this.heroY = 404;
         }else if (this.heroY < 0) {
+            // reset Hero position when reaches the water
             this.heroX = 202;
             this.heroY = 404;
         }
@@ -93,14 +94,15 @@ class Hero {
 
 }
 
+// Now instantiate your objects.
+// Place all enemy objects in an array called allEnemies
+// Place the player object in a variable called player
 
 let allEnemies = [new Enemy(-10,60,(Math.floor(Math.random() * 300) + 60)), new Enemy(0, 140, (Math.floor(Math.random() * 300) + 60)), new Enemy(10,225,(Math.floor(Math.random() * 300) + 60))];
 
 let player = new Hero(202,404);
 
-// Now instantiate your objects.
-// Place all enemy objects in an array called allEnemies
-// Place the player object in a variable called player
+
 
 
 

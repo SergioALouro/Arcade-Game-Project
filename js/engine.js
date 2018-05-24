@@ -79,7 +79,15 @@ var Engine = (function(global) {
      */
     function update(dt) {
         updateEntities(dt);
-        // checkCollisions();
+        checkCollisions();
+    }
+    
+    function checkCollisions() {
+        // 2D collision detection https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection
+        if( player.heroX < this.enemyX + 80 && player.heroX + 75 > this.enemyX && player.heroY < this.enemyY + 30 && 50 + player.heroY > this.enemyY) {
+            player.heroX = 202;
+            player.heroY = 404;
+        };
     }
 
     /* This is called by the update function and loops through all of the
